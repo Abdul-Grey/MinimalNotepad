@@ -1,0 +1,38 @@
+body,html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  background-color: whitesmoke;
+}
+
+#inputContainer{
+  background-color: white !important;
+  top: 0px;
+  left: 0px;
+  width: 45%;
+  height: 100%;
+  position: fixed;
+  box-shadow: 2px 2px 4px 1px #ccc;
+  padding-top: 13%;
+  text-align: center;
+}
+
+#messageContainer{
+  top: 0px;
+  position: absolute;
+  height: 100%;
+  right: 0px;
+  width: 45%;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+input[type='text']{
+  border: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  width: 80%;
+}
+
+input[type='text']:focus{
+  outline: none;
+}
